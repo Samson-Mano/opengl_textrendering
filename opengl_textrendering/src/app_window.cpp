@@ -58,7 +58,7 @@ void app_window::init()
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 
 	// Create a window
-	window = glfwCreateWindow(window_width, window_height, "Plane Truss Finite Element Solver", nullptr, nullptr);
+	window = glfwCreateWindow(window_width, window_height, "OpenGL Text Rendering", nullptr, nullptr);
 
 	if (!window) {
 		log = "Failed to create GLFW window";
