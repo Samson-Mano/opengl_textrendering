@@ -6,7 +6,7 @@ The OpenGL_Text_Rendering repository offers a highly optimized method for render
 ## Introduction
 Rendering text in OpenGL can be inefficient when using a method that binds textures and vertex/index buffers for every single character. This repository offers an alternative solution for rendering text more efficiently with a single texture and index bind.
 
-[.]
+![Text_Rendering](/Images/screenshot.png)
 
 ## How It Works
 The repository uses Freetype to load the font.ttf file and create an atlas for every character. The atlas stores the character size, bearing, and texture coordinates, and creates a 2D texture with all the textures aligned in a straight manner. By assigning the appropriate texture coordinate when creating the vertex buffer, the method becomes much more efficient.
