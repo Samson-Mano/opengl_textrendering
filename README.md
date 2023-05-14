@@ -18,3 +18,10 @@ To use this repository in your OpenGL project, simply include the Font_atlas.cpp
 
 ## Conclusion
 By using this repository, you can significantly improve the efficiency of text rendering in your OpenGL projects.
+
+
+## Example Implementation
+
+Below is the example implementation in another app. Batch rendering of n-number of text in one draw call.
+
+![Example Implementation](/Images/example_impl.png)
