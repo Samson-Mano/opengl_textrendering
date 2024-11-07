@@ -14,7 +14,7 @@ The repository uses Freetype to load the font.ttf file and create an atlas for e
 The main component for rendering text with a single bind is the Font_atlas.cpp and Font_atlas.h files.
 
 ## How to Use
-To use this repository in your OpenGL project, simply include the Font_atlas.cpp and Font_atlas.h files in your project directory and add them to your project build settings. Then, initialize the font atlas and render your text using the render_text() function.
+To use this repository in your OpenGL project, simply include the Font_atlas.cpp and Font_atlas.h files in your project directory and add them to your project build settings. Then, initialize the font atlas and render your text using the paint_text() function.
 
 ## Conclusion
 By using this repository, you can significantly improve the efficiency of text rendering in your OpenGL projects.
